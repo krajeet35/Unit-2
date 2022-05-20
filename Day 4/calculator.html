@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASAI CALCULATOR USING COMBINATORS</title>
+    <style>
+        div>h1{
+            color: rgba(10, 112, 162, 0.908);
+            margin: auto;
+            text-align: center;
+            font-size: 50px;
+            margin-top: 3%;
+        }
+        #box{
+            width: 25%;
+            height: 500px;
+            margin: auto;
+            margin-top: 4%;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            border: 1px solid white;
+        }
+        #box>div{
+            width: 90%;
+            height: 13%;
+            border: 1px solid white;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            margin: auto;
+            margin-top: 3%;
+            display: flex;
+        }
+        #box>div:nth-child(1){
+            margin-top: 15%;
+        }
+        #box>div:nth-child(5){
+            margin-bottom: 10%;
+        }
+        #box>div>div{
+            width: 20%;
+            height: 98%;
+            
+            margin: auto; 
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+        div>h2{
+            text-align: center;
+        }
+        .operators{
+            background-color: black;
+            color: white;
+        }
+        .clear{
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Masai Calculator</h1>
+    </div>
+    <div id="box">
+        <div></div>
+        <div >
+            <div><h2>1</h2></div>
+            <div><h2>2</h2></div>
+            <div><h2>3</h2></div>
+            <div class="operators"><h2>+</h2></div>
+        </div>
+        <div>
+            <div><h2>4</h2></div>
+            <div><h2>5</h2></div>
+            <div><h2>6</h2></div>
+            <div class="operators"><h2>-</h2></div>
+        </div>
+        <div>
+            <div><h2>7</h2></div>
+            <div><h2>8</h2></div>
+            <div><h2>9</h2></div>
+            <div class="operators"><h2>x</h2></div>
+        </div>
+        <div>
+            <div class="clear"><h2>C</h2></div>
+            <div><h2>0</h2></div>
+            <div class="operators"><h2>=</h2></div>
+            <div class="operators"><h2>/</h2></div>
+        </div>
+    </div>
+</body>
+</html>
